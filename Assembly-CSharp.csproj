@@ -64,6 +64,7 @@
      <Compile Include="Assets\Scripts\Common\Calc.cs" />
      <Compile Include="Assets\Scripts\Level\Level.cs" />
      <Compile Include="Assets\Scripts\Core\PlayerController.Scene.cs" />
+     <Compile Include="Assets\Scripts\PostProcess\PostEffectsController.cs" />
      <Compile Include="Assets\Scripts\Core\PlayerController.Gizmos.cs" />
      <Compile Include="Assets\Scripts\Common\Ease.cs" />
      <Compile Include="Assets\Scripts\Core\ISoundControl.cs" />
@@ -74,7 +75,6 @@
      <Compile Include="Assets\Scripts\Configs\PlayerParam.cs" />
      <Compile Include="Assets\Scripts\Effects\EffectComponent.cs" />
      <Compile Include="Assets\Scripts\Components\WallBoost.cs" />
-     <Compile Include="Assets\Scripts\PostProcess\PostEffectsController.cs" />
      <Folder Include="Assets" />
      <Folder Include="Assets\Scripts\Core" />
      <Folder Include="Assets\Scenes" />
@@ -85,7 +85,6 @@
      <Folder Include="Assets\Scripts\PostProcess" />
      <Folder Include="Assets\_Arts\Textures\Effect\keyframes\small_wood" />
      <Folder Include="Assets\_Arts\Textures\Effect\keyframes" />
-     <Folder Include="Assets\Prefab" />
      <Folder Include="Assets\Scripts" />
      <Folder Include="Assets\_Arts\Textures\Level" />
      <None Include="Assets\_Arts\Shaders\Player.shader" />
@@ -98,6 +97,7 @@
      <None Include="Assets\_Arts\Shaders\PostFXMask.shader" />
      <Folder Include="Assets\_Arts\Textures" />
      <Folder Include="Assets\Scripts\Common" />
+     <Folder Include="Assets\Resources" />
      <Folder Include="Assets\_Arts\Shaders" />
      <None Include="Assets\_Arts\Shaders\PostEffects.shader" />
      <Folder Include="Assets\Scripts\Core\States" />

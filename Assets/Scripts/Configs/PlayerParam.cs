@@ -87,7 +87,8 @@ namespace ET.Client.Platform
         public float ClimbAccel = 90f;          //下滑加速度
         [Tooltip("攀爬开始时，对原Y轴速度的衰减")]
         public float ClimbGrabYMult = .2f;       //攀爬时抓取导致的Y轴速度衰减
-        
+        [Tooltip("墙跳时间")]
+        public float WallJumpForceTime = .16f;
         [Header("Hop参数（边缘登陆）")]
         [Tooltip("Hop的Y轴速度")]
         public float ClimbHopY = 12f;          //Hop的Y轴速度
@@ -133,7 +134,7 @@ namespace ET.Client.Platform
             Constants.VarJumpTime = VarJumpTime;
             Constants.JumpHBoost = JumpHBoost;
             Constants.JumpGraceTime = JumpGraceTime;
-
+            Constants.WallJumpForceTime = WallJumpForceTime;
             Constants.DashSpeed = DashSpeed;          //冲刺速度
             Constants.EndDashSpeed = EndDashSpeed;        //结束冲刺速度
             Constants.EndDashUpMult = EndDashUpMult;       //如果向上冲刺，阻力。

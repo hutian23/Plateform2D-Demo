@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EnableWallSlide: 1
   EnableJumpGrace: 1
-  EnableWallBoost: 1
+  EnableWallBoost: 0
   MaxRun: 9
   RunAccel: 100
   RunReduce: 40
@@ -25,7 +25,7 @@ MonoBehaviour:
   FastMaxAccel: 30
   JumpSpeed: 16.25
   VarJumpTime: 0.2
-  JumpHBoost: 4
+  JumpHBoost: 0
   JumpGraceTime: 10.1
   UpwardCornerCorrection: 4
   DashSpeed: 24
@@ -44,6 +44,7 @@ MonoBehaviour:
   ClimbSlipSpeed: -3
   ClimbAccel: 90
   ClimbGrabYMult: 0.2
+  WallJumpForceTime: 0.1
   ClimbHopY: 12
   ClimbHopX: 10
   ClimbHopForceTime: 0.2

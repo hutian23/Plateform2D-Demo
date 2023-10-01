@@ -34,16 +34,15 @@ namespace ET.Client.Platform
         public static float JumpSpeed = 10.5f; //最大跳跃速度
         public static float VarJumpTime = 0.2f; //跳跃持续时间(跳起时,会持续响应跳跃按键[VarJumpTime]秒,影响跳跃的最高高度);
 
-        public static float
-            JumpHBoost = 4f; //退离墙壁的力
+        public static float JumpHBoost = 4f; //退离墙壁的力
 
         public static float JumpGraceTime = 0.1f; //土狼时间
 
         #region WallJump
 
         public static float WallJumpCheckDist = 0.3f;
-        public static float WallJumpForceTime = .16f; //墙上跳跃强制时间
-        public static float WallJumpHSpeed = MaxRun + JumpHBoost;
+        public static float WallJumpForceTime = .16f; //墙上跳跃强制时间 
+        public static float WallJumpHSpeed = JumpHBoost;
 
         #endregion
 
